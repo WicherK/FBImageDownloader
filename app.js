@@ -20,7 +20,7 @@ let containsURL;
         }
     });
 
-    await page.goto('https://www.messenger.com/t/' + config.messageId);
+    await page.goto('https://www.messenger.com/t/' + config.messageThreadId);
     
     await page.waitForSelector('.xxooi2h');
     await page.click(".xxooi2h");
