@@ -5,7 +5,7 @@ Application that allows you to download all images from chosen conversation. Eve
 - [puppeteer](https://www.npmjs.com/package/puppeteer)
 
 ## Installation and configuration
-Before running app make sure you installed all dependencies and setted ``messageThreadId`` and `userDataDir` in your **config.json** file.
+Before running app make sure you installed all dependencies and set ``messageThreadId`` and `userDataDir` in your **config.json** file.
 
 - messageThreadId - thread id from conversation.
 
@@ -19,7 +19,7 @@ Example:
 }
 ```
 
-If everything is setted you are good to go. After you run the program, image links should be stored in your text file.
+If everything is set you are good to go. After you run the program, image links should be stored in your text file.
 ```bash
 node app.js
 ```
